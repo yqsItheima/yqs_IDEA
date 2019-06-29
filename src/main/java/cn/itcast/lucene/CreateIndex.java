@@ -26,6 +26,8 @@ public class CreateIndex {
     @Test
 	public void createIndex() throws Exception{
 		System.out.println("新建索引库");
+		System.out.println("新建索引库222222222222");
+
 		String directory = "D:\\heimaDemo\\indexDataBase";
 		//指定索引库目录位置
 		FSDirectory fsDirectory = FSDirectory.open(new File(directory));
